@@ -1,0 +1,428 @@
+ 
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Freind</title> <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        
+        function selectRandomLine() {
+            var lines = `
+
+            Michoel Weiss
+Sholom Lipsker
+Yonah Elharar
+Sam Cyprys
+Yitzy Wall
+Moishe Bell
+Eli Shimshoni
+Menachem Cohen Mohel
+Yaakov Eitan
+Menachem Mendel H'levi Klein
+Mozel Klein
+Schneur Zalman Gordon
+Ker A Velt
+Mendel Kras
+Yankel Raskin
+Mendel Capland
+Levi Laber
+Mendel Lerman
+Mendel Deutsch
+Netanel Morali
+Zalman Lew
+Yisroel Stinmitz
+Yosef Fastow
+Jason Hus
+Eli Goldstein
+Roli Abraham
+Levi Schrager
+Mendy Weinstein
+Tzvi Hahn
+Betzalel Moshe Hymon
+Sholom Lipsker
+Yakov Perlov
+Laibel Pinson
+Mendel Cohen
+Betz Hymon
+Yossi Hahn
+Berel Hahn
+Yechiel L. Fayershteyn
+Abe Kopel
+Avroham Yehudah Ross
+Shimi Levy
+Dovi Koazarnovsy
+Mendy Katz
+Mendel Wilhelm
+Samson Wolfe
+Amit Israeli
+Chabad Uri
+Duby Dubrowski
+Yoni Helman
+Livingston Andrew
+Jacobson Schach
+Yonatan Glasomitsky
+Yossi Abraham
+Elissa Golan-Mermelstein
+Dovid Laskey
+Menachem Epstein
+Ben Gold
+Samuel Weinbaum
+Yossi Finlandia
+Alex Cohen
+Baboo Goldfarb
+Meir Cohen
+Dovid Laskey
+Shmuli Wilhelm
+Ephraim Eagle
+Rafoel Langsam
+Levi Sudak
+Mechel Moskowitz
+Shua Kalmanson
+Aaron Stein
+Noam Kamin
+Shia Zee
+Peretz Mockin
+Daniel Altman
+Schneur Solly Jacobs
+Sholom Yemini
+Mendy Friedman
+Simcha Lederman
+Chaya Ehven-Teich
+Shmuel Gordon
+Mendel Klein
+Chaim Samuels
+Daniel Klovsky
+Levi Isaac
+Sam Shollar
+Shimon Meshchaninov
+Zalman Schwartz
+Levi Schechter
+Zee Franklin
+Joe Brikman
+Judah Blitzy Blitzed
+Dovi Greenspan
+Mendel Raksin
+Josh Pershell
+Dovber Engel
+Shimi Russell
+Mendy Spiegel
+Zaki Setnik
+×©×œ×ž×” ×§×¤×œ×Ÿ
+Natan Eisenberg
+Sholom Dovber Okunov Oaks
+Avigdor Shifrin
+Akiva Dvori Sheinberger
+Joseph Gabriel
+Yossi Leverton
+Danny Gavrielov
+Menachem Muller
+Menachem Kolt
+Mendy N Sarale Goldstein
+Zalmy Kessler
+Mendy Taichman
+Dovber Cohen
+Chaim Feldman
+Yoel Garcia
+Yoll Gajer
+××”×¨×Ÿ ××‘× ×‘×Ÿ ××‘×¨×”×
+Elazar Norton'
+Meir Cohen
+Moshe Levy
+Bruce Schaff
+Mendel Jacobson
+Lev Talyansky
+Ymbn Mardi
+Mendy Wilansky
+Laivy Mochkin
+Yisachar Mardi
+Elimelech Felberman
+Noah Mendelsohn
+Sammy Alt
+Dovid Rosenfeld
+Sholom Borenstein
+Eric Solomon
+Mendel Goldstein
+Sam Simon
+Pre Mesivta Journall
+Tzvi Gewirtz
+Shmuel Silverstein
+Moishe Caplan
+Boruch Hahn
+Sholom Scheinfeld
+Moshe Layani
+Av Resnick
+Meir Hahn
+Elazar Norton
+Shneur Mangel
+Shlomo Avi Gewirtz
+Rabbi'Shalom Ber Cohen
+Jack Kroll
+Yossi Rotenstreich
+Menachem Solomon
+Mendel Liberow
+Levi Schonbuch
+Mendy Spielman
+Yudi Perl
+Daniel Yosef Nugent
+Reuven Sinai Korn
+Zalmy Kessler
+Shlomo Salazar
+Meir Bernath
+Shmaya Nodel
+Levi Salazar
+Levi Nodel
+Avi Rieber
+Yossi Rapp
+Meir Bernath
+Shmuel Seldowitz
+Dovid Gonzalez
+Shloime Gee
+Mendy Kahana
+Mendel Goodman
+Yanky Greene
+Mendel Blesofsky
+Moshe Ivry
+Mendel Mayteles
+Levi Chazan
+Chida Levitansky
+Ace Simcha Teich
+Mendel Rivkin
+Aron Keszler
+Ashi Andrusier
+Ezra Solomon
+Moish Sugarman
+Renen Melul-Shnider
+Zuch Yarmak
+Boruch Hahn
+Mendy Cohen
+Laivy Mochkin
+Dovi Calabro
+Jake Evans
+Dovid Leitner
+Danny Shvili
+Moshe Ivry
+Mendy Horowitz
+Shneur Gottlieb
+Binyamin Gabriel
+Yoel Sebbag
+Chaim Plotkin
+Meir Gewirtz
+Dsab Bronstein
+Shlomo Habibian
+Leib Friedman
+Yaphet Felix
+Mendel Wolowik
+Eli Meroz
+Menachem Jacobs
+Yisroel Meir Munitz
+Yitzchak Abehsera
+Nechemia Benjamin
+Dan Yitzhak Gabber
+Zev Feller
+Tal Braude
+Zack Horowitz
+Binyomin Rechavel
+Eliezer Tewel
+Zusha Goldin
+Teddy Berman
+Jacob Niebloom
+Avrohom Perl
+Yehouda Abecassis
+Moshe Lieblich
+Eliezer Staav
+Eitan Glick
+Nissi Yomtov
+Brandon Rumann
+Ephraim Zack Eagle
+Levi Hahn
+Victor Sasson
+Yossi Finemin
+Levi Greenwald
+Israel Clapman
+Mendy Schwartz
+Yosef Buchman
+Noach Evers
+Yisroel Beenstock
+Menachem Rappaport
+Shimon Dubroff
+Noah Tanenbaum
+Levi Green
+Ariel Licht
+Stu Hershey Sufrin
+Matt Levitan
+Moshe Sheradsky
+Joshua Yoel Avram Mikofsky
+Choni Botnick
+Yossi Rubenstein
+Aaron Zuckerman
+Schneur Z Levine
+Jakob Jerochim
+Michael Wallach
+Gavriel Isenberg
+Ariel Malka
+Gavriel Polonsky
+Zev Icyk
+Betzalel Moshe Hymon
+Eli Goldstein
+Yair Fradkin
+Joey Elbaz
+Shmuly Lehrer
+Yaakov Cahnman
+Zalmy Plotke
+Avraham Adam Goldstein
+Nossy Freilich
+Eliezer Tunk
+Daniel Raskin
+Michael Rapoport
+Menachem Loksen
+Shimon Tewl
+Simcha Gottlieb
+Shneur Aharon
+Menachem Weinstein
+Yitzy Bitzyspider
+Shmuli Raskin
+Avi Lallouz
+Va Di
+Chayim Schaider
+Chaim Gajer
+Pinchos Zilberman
+David A. Portnow
+James Sneidz
+Rabbi Levi Goldstein
+Yekusiel Kaplan
+Moishe Nisnevich
+Aaron Lazer Goodman
+Shmuel Hoffman
+Dovid Burns
+Mitch Zveibil
+Rachamim Melechov
+Midd Chabad
+Jonathan Azrielant
+Yehudah Gene Velkovich
+Jacob Shulkin
+Doniel Berry
+
+
+            
+            `; // Replace with your lines of text
+            
+            var linesArray = lines.split('\n');
+            var selectedLine = "";
+
+            while (selectedLine.trim() === "") {
+                var randomIndex = Math.floor(Math.random() * linesArray.length);
+                selectedLine = linesArray[randomIndex];
+            }
+
+            //document.getElementById("result").innerHTML += '<br><br>' + selectedLine;
+            document.getElementById("result").innerHTML = selectedLine +' <a target="_blank" href="https://www.facebook.com/search/top/?q='+selectedLine+'"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/></svg></a> ';
+
+//selectedLine + 
+        }
+
+$(document).ready(function() {
+
+$('#startgame').click(function(){
+//$('body').append('random');
+startgame();
+
+});
+
+function startgame(){
+$('.btn-success').removeClass('btn-success');
+var random = Math.floor(Math.random() * 3);
+//$('body').append(random);
+if(random == 0){
+random = 1;
+}
+$('#match'+random).addClass('btn-success');
+}
+
+
+$('.matches').click(function(){
+ if($(this).hasClass('btn-success')){
+startgame();
+}
+});
+
+});
+    </script>
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            background: #dc3545;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 2vh;
+        }
+        button {
+          height: 4vh;
+          width: 25vh;
+          font-size: 2vh;
+      }
+ .obstacle {
+           position: absolute;
+           background: red
+           background-repeat: no-repeat;
+           background-size: contain;
+           width: 30px;
+           height: 30px;
+           z-index: 999;
+       }
+.matches{
+width:100px;
+height:50px;
+display:inline-block;
+}
+.game{
+text-align:center;
+margin-bottom: 10px;
+}
+#startgame{
+line-height: 5px;
+}
+.next_line{
+    line-height: 3px;
+}
+
+    </style>
+</head>
+<body >
+  <div class="card" style="width: 18rem;">
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-body">
+      <h5 class="card-title">Random Freind</h5>
+      <p class="card-text"><div class="alert alert-primary"  id="result" role="alert">
+        <!-- A simple primary alert—check it out! -->
+      </div></p>
+      <button class="btn btn-primary next_line" onclick="selectRandomLine()">Next Line</button>
+    </div>
+
+<div class="game">
+<button id="startgame" class="btn btn-primary mb-3">Start Game</button>
+
+
+<div>
+<button id="match1" class="btn btn-primary matches"></button>
+<button id="match2" class="btn btn-primary matches"></button>
+   </div>
+</div>
+
+
+  </div>
+    <!-- <p id="result"></p> -->
+</body>
+</html>
